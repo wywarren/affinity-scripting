@@ -44,6 +44,14 @@ Run:
 node search_sdk.js "blend mode"
 ```
 
+### `search_terminal.mjs`
+
+Wraps the `search_sdk.js` into a terminal to continually ask questions.
+
+```bash
+node search_terminal.mjs
+```
+
 ### `script_mgr.js`
 
 Manages scripts in the Affinity script library.
