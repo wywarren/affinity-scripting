@@ -24,6 +24,7 @@ function myCustomFunction(input) {
 const rl = readline.createInterface({
   input: process.stdin,
   output: process.stdout,
+  historySize: 30,
 });
 
 async function main() {
